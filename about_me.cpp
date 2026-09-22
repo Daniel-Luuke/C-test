@@ -30,28 +30,21 @@ getline(cin, course);
 
 //===================
 //QUESTION 3: HOBBY
-//===================
 cout << "3. What is your hobby? ";
 getline(cin, hobby);
 
 //===================
 //QUESTION 4: REASON FOR CHOOSING THE COURSE
-//===================
-
 cout << "4. Why did you choose this course? ";
 getline(cin, reason);
 
 //===================
 //QUESTION 5: EXPECTATIONS
-//===================
-
 cout << "5. What do you expect to learn in programming? ";
 getline(cin, expectation);
 
 //===================
 //QUESTION 6: DEFINITION OF PROGRAMMING
-//===================
-
 cout << "6. In your own words, what is programming? ";
 getline(cin, definition);
 
