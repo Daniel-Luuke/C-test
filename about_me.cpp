@@ -67,7 +67,7 @@ cout << "Programming is: " << definition << endl;
 cout << endl;
 
 cout << "===============" << endl;
-cout << "Thank you for completing this!" << endl;
+cout << "Great job, " << name << " you are on your way to becoming a programmer!" << endl;
 cout << "===============" << endl;
     return 0;
 }
