@@ -3,16 +3,22 @@
 using namespace std;
 
 int main() {
-//===================
+
 // VARIABLE DECLARATION
-// These are the "storage boxes" where we keep user answers
-// QUESTION 1:NAME
-//===================
+string name;
+string course;
+string hobby;
+string reason;
+string expectation;
+string definition;
+
+//WELCOME MESSAGE
 cout <<"===========" << endl;
 cout <<" WELCOME TO YOUR FIRST PROGRAM!" << endl;
 cout <<"===========" << endl;
 cout << endl;
 
+//QUESTION 1: NAME
 cout << "1. What is your name? ";
 getline(cin, name); //Reads the entire line of input, including spaces
 
